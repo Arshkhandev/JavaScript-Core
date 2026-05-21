@@ -50,17 +50,17 @@
 
 
 
-let a = "ecdebtw".split("");
+// let a = "ecdebtw".split("");
 
-// a.split("");
-let  left =0;
-let right=a.length-1;
-let temp;
-while(left<right){
- temp = a[left];
- a[left] = a[right];
- a[right] = temp;
- left++;
- right--;  
-}
-console.log(a.join(""));
+// // a.split("");
+// let  left =0;
+// let right=a.length-1;
+// let temp;
+// while(left<right){
+//  temp = a[left];
+//  a[left] = a[right];
+//  a[right] = temp;
+//  left++;
+//  right--;  
+// }
+// console.log(a.join(""));
