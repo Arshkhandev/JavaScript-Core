@@ -114,3 +114,35 @@ function RemoveDuplicate(nums){
 
 console.log(RemoveDuplicate([1,2,2,3,3,4,4,4,5]));
 
+
+
+
+
+function RemoveDuplicate(nums){
+   let result = [];
+   for(let i=0;i<nums.length;i++){
+    if(!result.includes(nums[i])){
+        result.push(nums[i]);
+    }
+   }
+  return result;
+}
+
+console.log(RemoveDuplicate([1,2,2,3,3,4,4,4,5]));
+
+
+
+
+
+function RemoveDuplicate(nums){
+   let result = [];
+   for(let i=0;i<nums.length;i++){
+    if(!result.includes(nums[i])){
+        result.push(nums[i]);
+    }
+   }
+  return result;
+}
+
+console.log(RemoveDuplicate([1,2,2,3,3,4,4,4,5]));
+
