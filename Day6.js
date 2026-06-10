@@ -8,6 +8,17 @@ function CountVowel(str){
        return count;
 }
 
+function CountVowel(str){
+    let count=0;
+      for(let i=0;i<str.length;i++){
+          if(str[i].toLowerCase() === 'a' || str[i].toLowerCase() === 'e' || str[i].toLowerCase() ===  'i' || str[i].toLowerCase() === 'o' || str[i].toLowerCase() === 'u'){
+            count++;
+          }
+      }
+       return count;
+}
+
+
 console.log(CountVowel("arsh"));
 
 
@@ -147,5 +158,10 @@ function RemoveDuplicate(nums){
 console.log(RemoveDuplicate([1,2,2,3,3,4,4,4,5]));
 
 
+
+console.log("hellojiii");
+
+
+console.log("hellojiii")
 
 console.log("hellojiii");
