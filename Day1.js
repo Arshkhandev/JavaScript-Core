@@ -19,6 +19,3 @@ a=temp;
 console.log(a);
 console.log(b);
 console.log(temp);
-console.log(temp);
-console.log(temp);
-console.log(temp);
