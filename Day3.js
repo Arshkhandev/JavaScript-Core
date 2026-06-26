@@ -14,7 +14,7 @@
 // }
 // console.log(max);
 // console.log(min);
-
+console.log(min);
 
 
 // let arr= [200,0,4,5];
