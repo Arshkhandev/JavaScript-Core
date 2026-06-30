@@ -12,7 +12,8 @@
 
 let a=10;
 let b =20;
-let temp=b
+let temp=b;
+let c= 24;
 b=a;
 a=temp;
 ;
