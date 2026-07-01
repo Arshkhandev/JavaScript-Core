@@ -12,8 +12,6 @@
 //         min =arr[i];
 //      }
 // }
-// console.log(max);
-// console.log(min);
 
 
 
