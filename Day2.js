@@ -11,7 +11,3 @@
 //    }
 //    return true;
 // }
-
-
-//  let str = "racecar"
-// console.log(Palidrome(str)); 
